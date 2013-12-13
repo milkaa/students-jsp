@@ -3,13 +3,13 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
 
     <servlet>
-        <servlet-name>bookmarks</servlet-name>
-        <servlet-class>BookmarksServlet</servlet-class>
+        <servlet-name>a</servlet-name>
+        <servlet-class>milka.milka.Servlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>bookmarks</servlet-name>
-        <url-pattern>/bookmark/*</url-pattern>
+        <servlet-name>a</servlet-name>
+        <url-pattern>/a/*</url-pattern>
     </servlet-mapping>
 
 </web-app>
